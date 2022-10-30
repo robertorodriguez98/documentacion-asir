@@ -2,8 +2,8 @@ baseURL = "/"
 title = "Goldydocs"
 
 # Language settings
-contentDir = "content/en"
-defaultContentLanguage = "en"
+contentDir = "content/es"
+defaultContentLanguage = "es"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
@@ -59,27 +59,13 @@ id = "UA-00000000-0"
 # Language configuration
 
 [languages]
-[languages.en]
-title = "Goldydocs"
-description = "A Docsy example site"
-languageName ="English"
-# Weight used for sorting.
-weight = 1
-[languages.no]
-title = "Goldydocs"
+[languages.es]
+title = "Documentación Rober ASIR"
 description = "Docsy er operativsystem for skyen"
-languageName ="Norsk"
-contentDir = "content/no"
+languageName ="Español"
+contentDir = "content/es"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
-
-[languages.fa]
-title = "اسناد گلدی"
-description = "یک نمونه برای پوسته داکسی"
-languageName ="فارسی"
-contentDir = "content/fa"
-time_format_default = "2006.01.02"
-time_format_blog = "2006.01.02"
 
 [markup]
   [markup.goldmark]
@@ -120,7 +106,7 @@ version = "0.0"
 
 # A link to latest version of the docs. Used in the "version-banner" partial to
 # point people to the main doc site.
-url_latest_version = "https://example.com"
+url_latest_version = "https://documentacion-robeasir.surge.sh/"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/google/docsy-example"
