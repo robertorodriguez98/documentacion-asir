@@ -5,7 +5,6 @@ title: "Taller 1: Instalación de QEMU/libvirt"
 linkTitle: "Taller 1"
 date: 2022-09-23
 type: "docs"
-draft: true
 weight: 1
 ---
 
